@@ -54,7 +54,7 @@
 						}
 					]
 				},
-				"description": "\nThis endpoint retrieves a list of users with pagination support. It accepts a query parameter 'page' to specify the page number of results to fetch.\n\n### Request\n\n- Method: GET\n- Endpoint: {{baseurl}}api/users\n- Query Parameters:\n  - page (number): Specifies the page number of results to fetch.\n\n### Response\n\n- Status: 200 OK\n- Body:\n  ```json\n  {\n    \"page\": 0,\n    \"per_page\": 0,\n    \"total\": 0,\n    \"total_pages\": 0,\n    \"data\": [\n      {\n        \"id\": 0,\n        \"email\": \"\",\n        \"first_name\": \"\",\n        \"last_name\": \"\",\n        \"avatar\": \"\"\n      }\n    ],\n    \"support\": {\n      \"url\": \"\",\n      \"text\": \"\"\n    }\n  }\n  ```\n\nThe response contains pagination information and an array of user data objects, each with 'id', 'email', 'first_name', 'last_name', and 'avatar' fields. The 'support' object provides additional support information with 'url' and 'text' fields.\n"
+				"description": "This endpoint retrieves a list of users with pagination support. It accepts a query parameter 'page' to specify the page number of results to fetch.\n\n### Request\n\n- Method: GET\n- Endpoint: https://reqres.in/api/users\n    \n- Query Parameters:\n    - page (number): Specifies the page number of results to fetch.\n\n### Response\n\n- Status: 200 OK\n- Body:\n    \n    ``` json\n        {\n          \"page\": 0,\n          \"per_page\": 0,\n          \"total\": 0,\n          \"total_pages\": 0,\n          \"data\": [\n            {\n              \"id\": 0,\n              \"email\": \"\",\n              \"first_name\": \"\",\n              \"last_name\": \"\",\n              \"avatar\": \"\"\n            }\n          ],\n          \"support\": {\n            \"url\": \"\",\n            \"text\": \"\"\n          }\n        }\n    \n     ```\n    \n\nThe response contains pagination information and an array of user data objects, each with 'id', 'email', 'first_name', 'last_name', and 'avatar' fields. The 'support' object provides additional support information with 'url' and 'text' fields."
 			},
 			"response": []
 		},
@@ -107,7 +107,7 @@
 						}
 					]
 				},
-				"description": "\nThis endpoint makes an HTTP GET request to retrieve a list of users with an optional delay of 3 seconds. The response will include pagination details such as page number, items per page, total count, total pages, and an array of user data containing their IDs, email addresses, first names, last names, and avatars. Additionally, the response includes support information with URL and text details.\n\nTo use this endpoint, simply make an HTTP GET request to the specified URL with an optional delay query parameter.\n\nExample:\n```\n{{baseurl}}api/users?delay=3\n```\n"
+				"description": "This endpoint makes an HTTP GET request to retrieve a list of users with an optional delay of 3 seconds. The response will include pagination details such as page number, items per page, total count, total pages, and an array of user data containing their IDs, email addresses, first names, last names, and avatars. Additionally, the response includes support information with URL and text details.\n\nTo use this endpoint, simply make an HTTP GET request to the specified URL with an optional delay query parameter.\n\nExample:\n\n```\nhttps://reqres.in/api/users?delay=3\n\n ```"
 			},
 			"response": []
 		},
