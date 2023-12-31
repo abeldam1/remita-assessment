@@ -145,7 +145,7 @@
 				"method": "GET",
 				"header": [],
 				"url": "https://reqres.in/api/users/2",
-				"description": "\nThis API endpoint makes an HTTP GET request to fetch user details based on the provided user ID. The request should be made to {{baseurl}}api/users/2. The response will have a status code of 200, and it will include the user's data along with support information.\n\nThe response will contain the user's ID, email, first name, last name, and avatar. Additionally, the response will also include support information with a URL and text.\n\nNo request body is required for this GET request.\n"
+				"description": "This API endpoint makes an HTTP GET request to fetch user details based on the provided user ID. The request should be made to https://reqres.in/api/users/2. The response will have a status code of 200, and it will include the user's data along with support information.\n\nThe response will contain the user's ID, email, first name, last name, and avatar. Additionally, the response will also include support information with a URL and text.\n\nNo request body is required for this GET request."
 			},
 			"response": []
 		},
@@ -385,7 +385,7 @@
 					}
 				},
 				"url": "https://reqres.in/api/register",
-				"description": "This endpoint is used to register a new user. When making a POST request to {{baseurl}}api/register, the request should include a raw body with the user's email in the payload.\n\n### Request Body\n\n- email (string, required): The email of the user to be registered.\n    \n\n### Response\n\nThe endpoint returns a status code of 400 in case of an error, along with an error message in the response body.\n\nExample:\n\n```\n{\n    \"error\": \"Error message here\"\n}\n\n ```"
+				"description": "This endpoint is used to register a new user. When making a POST request to https://reqres.in/api/register, the request should include a raw body with the user's email in the payload.\n\n### Request Body\n\n- email (string, required): The email of the user to be registered.\n    \n\n### Response\n\nThe endpoint returns a status code of 400 in case of an error, along with an error message in the response body.\n\nExample:\n\n```\n{\n    \"error\": \"Error message here\"\n}\n\n ```"
 			},
 			"response": []
 		},
@@ -482,7 +482,7 @@
 					}
 				},
 				"url": "https://reqres.in/api/login",
-				"description": "This endpoint is used to authenticate and login a user. The HTTP POST request should be made to {{baseurl}}api/login with the user's email provided in the request body.\n\n### Request Body\n\n- email (string, required): The email of the user trying to login.\n    \n\n### Response\n\n- Status: 400\n- error (string): A message indicating the reason for the login failure."
+				"description": "This endpoint is used to authenticate and login a user. The HTTP POST request should be made to https://reqres.in/api/login with the user's email provided in the request body.\n\n### Request Body\n\n- email (string, required): The email of the user trying to login.\n    \n\n### Response\n\n- Status: 400\n- error (string): A message indicating the reason for the login failure."
 			},
 			"response": []
 		}
