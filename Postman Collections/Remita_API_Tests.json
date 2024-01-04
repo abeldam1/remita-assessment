@@ -482,7 +482,7 @@
 					}
 				},
 				"url": "https://reqres.in/api/login",
-				"description": "This endpoint is used to authenticate and login a user. The HTTP POST request should be made to https://reqres.in/api/login with the user's email provided in the request body.\n\n### Request Body\n\n- email (string, required): The email of the user trying to login.\n    \n\n### Response\n\n- Status: 400\n- error (string): A message indicating the reason for the login failure."
+				"description": "This endpoint is used to authenticate and login a user. The HTTP POST request should be made to [https://reqres.in/api/login](https://reqres.in/api/login) with the user's email provided in the request body.\n\n### Request Body\n\n- email (string, required): The email of the user trying to login.\n    \n\n### Response\n\n- Status: 400\n- error (string): A message indicating the reason for the login failure."
 			},
 			"response": []
 		}
